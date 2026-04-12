@@ -1,0 +1,17 @@
+img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.imagedetail{
+    width: 100px;
+    height: 150px;
+    background-color: blue;
+}
+
+.divitem{
+    width: 200px;
+    height: 300px;
+    background-color: yellow;
+}
