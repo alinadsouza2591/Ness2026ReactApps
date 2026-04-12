@@ -4,6 +4,7 @@ import './item.css'
 import { useState } from 'react';
 import type {CartItem} from './Types';
 import ImageDisplay from './ImageDisplay';
+import Dashboard from './clients/Dashboard';
 
 export default function Item() {
   const [count, setCount] = useState<number>(0);
@@ -11,6 +12,7 @@ export default function Item() {
   const imagesize: number = imagelist.length;
  
   const imgitem: CartItem = imagelist[count];
+  const companyname:string ="NESS";
   return (
     <div className="divitem">
       <h1> Item - Data </h1>
@@ -27,6 +29,7 @@ export default function Item() {
       </button>
 
       <ImageDisplay imgitem={imgitem} /> 
+      <Dashboard company={companyname} />
  
     </div>
   );

@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import Item from './Item'
+import EventPatterns from './EventPatterns'
+import GroceryStore from './classcomponents/grocerystore'
 //import './App.css'
 
 function App() {
@@ -10,7 +9,8 @@ function App() {
   return (
     <>
       <section id="center">
-        <Item />
+        <GroceryStore />
+        <EventPatterns />
       </section>
     </>
   )
