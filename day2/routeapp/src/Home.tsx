@@ -1,0 +1,13 @@
+export default function Home()
+{
+  return (
+    <div>
+ 
+ 
+      <h1> Welcome to Route Sampling </h1>
+ 
+   
+    </div>
+  )
+}
+ 
