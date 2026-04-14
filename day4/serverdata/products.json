@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "12",
+      "url": "./assets/images/tshirts.jpg",
+      "name": "",
+      "category": "Clothing",
+      "price": 333,
+      "description": "tshirts"
+    },
+    {
+      "id": "13",
+      "url": "./assets/images/shirts.jpg",
+      "name": "",
+      "category": "Clothing",
+      "price": 334,
+      "description": "shirts"
+    },
+    {
+      "id": "14",
+      "url": "./assets/images/jeans.jpg",
+      "name": "",
+      "category": "Clothing",
+      "price": 335,
+      "description": "jeans"
+    },
+    {
+      "id": "vLa0-in3Rms",
+      "url": "./assets/images/cottonpants.jpg",
+      "name": "",
+      "category": "pants",
+      "price": 350,
+      "description": "brown pants"
+    },
+    {
+      "id": "IWfRUKh3OY0",
+      "url": "./assets/images/cottonpants.jpg",
+      "name": "",
+      "description": "brown pants",
+      "alt": "",
+      "category": "pants",
+      "price": 3245
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
