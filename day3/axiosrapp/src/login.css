@@ -1,0 +1,13 @@
+.clslogin 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20vh;   
+}
+
+.clsbtn
+{
+    width: 20vw;
+    justify-content: space-around;
+}
