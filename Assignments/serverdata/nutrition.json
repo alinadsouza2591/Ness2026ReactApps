@@ -1,0 +1,23 @@
+{
+  "nutrition": [
+    {
+      "foodName": "Brocolli",
+      "calories": 90,
+      "protein": -1,
+      "id": "Vc3UOKr9dzU"
+    },
+    {
+      "foodName": "Apple",
+      "calories": 95,
+      "protein": 0.5,
+      "id": "5xJrxCJE-Ns"
+    },
+    {
+      "foodName": "Boiled Egg",
+      "calories": 23,
+      "protein": 0.7,
+      "id": "wsmNQsPdwEI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
